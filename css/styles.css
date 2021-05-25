@@ -1,5 +1,23 @@
-h2 {
-    color: blue;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.services {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+p,
+nav,
+.footer-nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+nav ul li,
+.footer-nav {
+    text-transform: uppercase;
+    list-style-type: none;
 }
 .container {
     padding: 1vw;

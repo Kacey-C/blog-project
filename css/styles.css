@@ -19,6 +19,26 @@ nav ul li,
     text-transform: uppercase;
     list-style-type: none;
 }
+
+.site-title {
+    width: 25%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 .container {
     padding: 1vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-third-width {
+    background-color: aquamarine;
+    margin: 5px 10px;
+    padding: 20px;
 }

@@ -22,11 +22,26 @@ nav ul li,
 
 .site-title {
     width: 25%;
+    text-transform: capitalize;
+}
+nav{
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
 }
 
-nav ul {
+.site-title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+nav ul{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
 }

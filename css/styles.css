@@ -1,3 +1,15 @@
+
+/* MAIN styles */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 1.5rem;
+
+}
+
 h1,
 h2,
 h3,
@@ -8,37 +20,57 @@ h6,
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
 }
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 p,
 nav,
 .footer-nav {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-nav ul li,
-.footer-nav {
-    text-transform: uppercase;
-    list-style-type: none;
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-around;
+}
+.container-full-width {
+    width: 90%;
+}
+.container-half-width {
+    max-width: 750px;
+}
+.container-third-width {
+    background-color: aquamarine;
+    margin: 5px 10px;
+    padding: 20px;
 }
 
 .site-title {
     width: 25%;
     text-transform: capitalize;
 }
-nav{
+
+/* NAV styles */
+nav {
     width: 100%;
 }
-nav a {
-    text-decoration: none;
-    color: #000000;
-}
 
-.site-title {
-    font-family: 'Dancing Script', cursive;
-    font-weight: 400;
-    font-size: 36px;
-}
-
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -46,14 +78,26 @@ nav ul{
     flex-wrap: nowrap;
 }
 
-.container {
-    padding: 1vw;
-    display: flex;
-    justify-content: space-around;
+nav ul li,
+.footer-nav {
+    text-transform: uppercase;
+    list-style-type: none;
 }
 
-.container-third-width {
-    background-color: aquamarine;
-    margin: 5px 10px;
-    padding: 20px;
+.footer-nav {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.site-title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+/* HOME styles */
+
+.explore-arrow {
+    text-align: center;
 }

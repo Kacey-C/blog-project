@@ -60,6 +60,10 @@ nav,
     padding: 20px;
 }
 
+.float-center{
+    align-content: center;
+}
+
 .site-title {
     width: 25%;
     text-transform: capitalize;
@@ -100,4 +104,15 @@ nav ul li,
 
 .explore-arrow {
     text-align: center;
+}
+
+.hero-img {
+    width: 90%;
+    max-width: 500px;
+}
+
+.profile-img {
+    width: 90%;
+    max-width: 350px;
+    border-radius: 50%;
 }

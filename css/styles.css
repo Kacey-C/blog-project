@@ -27,6 +27,7 @@ h2 {
 
 h3 {
     font-size: 1.7rem;
+    text-align: center;
 }
 
 a {
@@ -41,7 +42,8 @@ nav,
     font-weight: 400;
 }
 
-.container {
+.container,
+header {
     width: 90%;
     max-width: 1400px;
     padding: 1vw;
@@ -53,11 +55,13 @@ nav,
 }
 .container-half-width {
     max-width: 750px;
+    width: 50%;
 }
 .container-third-width {
     background-color: aquamarine;
     margin: 5px 10px;
     padding: 20px;
+    width: 32%;
 }
 
 .float-center{
@@ -88,10 +92,15 @@ nav ul li,
     list-style-type: none;
 }
 
+footer {
+    width: 1005;
+    text-align: center;
+    background-color: aquamarine;
+}
+
 .footer-nav {
     padding: 0;
     margin: 0;
-    text-align: center;
 }
 
 .site-title {
@@ -113,6 +122,6 @@ nav ul li,
 
 .profile-img {
     width: 90%;
-    max-width: 350px;
+    max-width: 361px;
     border-radius: 50%;
 }

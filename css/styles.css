@@ -7,7 +7,6 @@ body {
     flex-wrap: wrap;
     font-size: 16px;
     line-height: 1.5rem;
-
 }
 
 h1,
@@ -15,8 +14,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-.services {
+h6 {
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
 }
@@ -42,20 +40,21 @@ nav,
     font-weight: 400;
 }
 
-.container,
-header {
+.container {
     width: 90%;
     max-width: 1400px;
-    padding: 1vw;
+    margin: 4vw auto;
+    padding: 0 1vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: stretch;
 }
 .container-full-width {
     width: 90%;
 }
 .container-half-width {
     max-width: 750px;
-    width: 50%;
+    width: 45%;
 }
 .container-third-width {
     background-color: aquamarine;
@@ -64,8 +63,8 @@ header {
     width: 32%;
 }
 
-.float-center{
-    align-content: center;
+.float-center {
+    text-align: center;
 }
 
 .site-title {
@@ -76,6 +75,16 @@ header {
 /* NAV styles */
 nav {
     width: 100%;
+}
+
+header {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 nav ul {
@@ -124,4 +133,8 @@ footer {
     width: 90%;
     max-width: 361px;
     border-radius: 50%;
+}
+
+.services {
+    height: 400px;
 }

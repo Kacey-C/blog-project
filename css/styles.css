@@ -95,6 +95,11 @@ nav ul {
     flex-wrap: nowrap;
 }
 
+
+nav a:hover{
+    background-color: #C2FFD8;
+}
+
 nav ul li,
 .footer-nav {
     text-transform: uppercase;
@@ -124,8 +129,16 @@ footer h2 {
 
 /* HOME styles */
 
+.heading-container {
+    display: flex;
+    align-items: stretch;
+}
+
 .explore-arrow {
     text-align: center;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
 }
 
 .hero-img {
